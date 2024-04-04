@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>İş Arama Platformu</title>
+    <!-- fontaweson link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- boostrap css kütüphanelerini bağlıyorum -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- Boostrap js kütüphanelerini bağlıyorum -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- benim style sayfamı bağlıyorum -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header menü bölümü -->
+    <header id="header">
+      <div class="menu-bar">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">İş Arama Platformu</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto float-end">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Tüm İşler</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Şirketler</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Güncel İşler</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Diğer</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Staj</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- banner -->
+        <div class="banner text-center">
+          <h1>İş İlanları Sizleri Bekliyor</h1>
+          <p>Size Uygun İş İlanlarını İnceleyebilirsiniz.</p>
+        </div>
+      </div>
+    </header>
+    <!-- İş Arama Bölümü -->
+    <div class="search-job text-center">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Pozisyon Bilgisi Giriniz"
+      />
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Şirket Adı Giriniz"
+      />
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Şehir Bilgisi Giriniz"
+      />
+      <input type="button" class="btn btn-primary" value="İş Bul" />
+    </div>
+    <!-- top jobs -->
+    <section id="jobs">
+      <div class="container text-center">
+        <h3>POPÜLER İŞLER</h3>
+        <div>
+          <img src="image/udemig.png" alt="" />
+          <img src="image/arabuleo.png" alt="" />
+          <img src="image/netflix.png" alt="" />
+          <img src="image/apple.jpg" alt="" />
+          <img src="image/jbl.png" alt="" />
+          <img src="image/amazon.png" alt="" />
+        </div>
+        <div>
+          <img src="image/fedex.png" alt="" />
+          <img src="image/gratis.png" alt="" />
+          <img src="image/facebook.png" alt="" />
+          <img src="image/kfc.png" alt="" />
+          <img src="image/redbul.png" alt="" />
+          <img src="image/microsoft.png" alt="" />
+        </div>
+        <div>
+          <img src="image/adidas.png" alt="" />
+          <img src="image/doritos.jpeg" alt="" />
+          <img src="image/colaturka.jpeg" alt="" />
+          <img src="image/sony.png" alt="" />
+          <img src="image/tesla.png" alt="" />
+          <img src="image/socar.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Jobs İnjo Bilgilendirme -->
+    <section id="top-job">
+      <div class="container">
+        <h5>EN SON GÜNCELLEMELER</h5>
+        <div class="company-details">
+          <div class="job-update">
+            <h4><b>Senior Frontend Developper</b></h4>
+            <p>1.Yazılım Firması</p>
+            <i class="fa-solid fa-briefcase"></i><span>0-1 yıl</span><br />
+            <i class="fa-solid fa-dollar-sign"></i><span>3500-4000</span><br />
+            <i class="fa-solid fa-location-dot"></i><span>Trabzon</span><br />
+            <p>
+              Yetenekler:
+              <small>Javascript</small
+              >--<small>Html</small>--<small>Css</small>--<small>React</small>
+            </p>
+            <p>
+              Detaylar için web sitemizi ziyaret ediniz.
+              <a href="#">Daha Fazla</a>
+            </p>
+          </div>
+          <div class="apply-btn">
+            <button type="button" class="btn btn-primary">İncele</button>
+          </div>
+        </div>
+        <div class="company-details">
+          <div class="job-update">
+            <h4><b>Senior Frontend Developper</b></h4>
+            <p>2.Yazılım Firması</p>
+            <i class="fa-solid fa-briefcase"></i><span>3-5 yıl</span><br />
+            <i class="fa-solid fa-dollar-sign"></i><span>2500-4000</span><br />
+            <i class="fa-solid fa-location-dot"></i><span>Samsun</span><br />
+            <p>
+              Yetenekler:
+              <small>Javascript</small
+              >--<small>Html</small>--<small>Css</small>--<small>React</small>
+            </p>
+            <p>
+              Detaylar için web sitemizi ziyaret ediniz.
+              <a href="#">Daha Fazla</a>
+            </p>
+          </div>
+          <div class="apply-btn">
+            <button type="button" class="btn btn-primary">İncele</button>
+          </div>
+        </div>
+        <div class="company-details">
+          <div class="job-update">
+            <h4><b>Senior Frontend Developper</b></h4>
+            <p>3.Yazılım Firması</p>
+            <i class="fa-solid fa-briefcase"></i><span>5-10 yıl</span><br />
+            <i class="fa-solid fa-dollar-sign"></i><span>3500-7000</span><br />
+            <i class="fa-solid fa-location-dot"></i><span>İstanbul</span><br />
+            <p>
+              Yetenekler:
+              <small>Javascript</small
+              >--<small>Html</small>--<small>Css</small>--<small>React</small>
+            </p>
+            <p>
+              Detaylar için web sitemizi ziyaret ediniz.
+              <a href="#">Daha Fazla</a>
+            </p>
+          </div>
+          <div class="apply-btn">
+            <button type="button" class="btn btn-primary">İncele</button>
+          </div>
+        </div>
+        <ul class="page-link text-center">
+          <li class="left-arrow">&#8592;</li>
+          <li class="active">1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+          <li class="right-arrow">&#8594;</li>
+        </ul>
+      </div>
+    </section>
+    <!-- site-stats -->
+    <section id="site-stat">
+      <div class="container text-center">
+        <h3>İSTATİSTİKLERİMİZ</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="stats-box">
+                            <i class="fa-solid fa-user"></i>
+                            <span><small>100k+</small></span>
+                            <p>İş Arayanlar</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="stats-box">
+                            <i class="fa-solid fa-user"></i>
+                            <span><small>500+</small></span>
+                            <p>İş Verenler</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="stats-box">
+                            <i class="fa-solid fa-user"></i>
+                            <span><small>20k+</small></span>
+                            <p>Aktif İş</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="stats-box">
+                            <i class="fa-solid fa-user"></i>
+                            <span><small>1500+</small></span>
+                            <p>Şirketler</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer alt bölüm -->
+    <footer class="footer">
+        <h2 class="text-center mb-3">
+            <i class="fa-regular fa-hand-peace"></i>İş İlanı Sayfası</h2>
+    <p class="text-center">İş ilanlarını kaçırmamak için bizi takip etmeyi unutmayın</p>
+    <div class="social-buttons">
+        <img src="image/twitter.png" alt="">
+        <img src="image/instagram.jpeg" alt="">
+        <img src="image/linkedin.png" alt="">
+        <img src="image/whatsup.jpeg" alt="">
+        <img src="image/facebook.png" alt="">
+    </div>
+    <p class="text-center mt-5">©2024 Tüm Hakları Saklıdır.</p>
+    </footer>
+  </body>
+</html>
